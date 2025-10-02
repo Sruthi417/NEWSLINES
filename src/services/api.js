@@ -1,4 +1,4 @@
-const Api_Key="51060ac93ca7467ba66a60f2d6b671e2"
+const Api_Key = import.meta.env.VITE_NEWS_API_KEY;
 const Base_Url="https://newsapi.org/v2"
 
 export const Everything=async()=>{
